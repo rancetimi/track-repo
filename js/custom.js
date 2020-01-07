@@ -12,6 +12,7 @@ $(window).on('load', function() {
   /*====================================================*/
   var navBar = $('.custom-menu'),
     navbarLinks = $('.custom-menu .nav-link');
+    
 
   /*====================================================*/
   /* STICKY NAVBAR                                      */
