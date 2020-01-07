@@ -53,7 +53,7 @@ html, body {
 body {
   font-family: "Karla", sans-serif;
   font-size: 1rem;
-  color: #637282;
+  color: #2f393b;
   overflow-x: hidden;
   font-weight: normal;
   letter-spacing: -.3px;
@@ -292,22 +292,27 @@ BUTTONS
 }
 
 .btn-primary {
-  background: #2FE7B1;
-  color: #1B2733;
+  background: #2F5BE7;
+  color: #fff;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:visited {
   -webkit-transform: translate(1px, -1px);
           transform: translate(1px, -1px);
-  background: #2FE7B1;
-  color: #1B2733;
-  -webkit-box-shadow: -5px 5px 0 rgba(47, 91, 231, 0.8);
-          box-shadow: -5px 5px 0 rgba(47, 91, 231, 0.8);
+  background: rgb(230, 141, 7);
+  color: rgb(255, 255, 255);
+  -webkit-box-shadow: -5px 5px 0 #fff;
+          box-shadow: -5px 5px 0 #fff;
 }
 
 .btn-secondary {
   background: #2F5BE7;
   color: #fff;
+  margin: 5px;
+}
+
+.btn-tet {
+  background: blue
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:visited {
@@ -382,6 +387,7 @@ BUTTONS
   background: #fff;
   color: #637282 !important;
 }
+
 
 /*
 ============================
@@ -482,13 +488,18 @@ FORMS AND INPUTS
 }
 
 .input-group .btn-primary:hover {
-  -webkit-box-shadow: 5px 5px 0 0 #2F5BE7;
+  -webkit-box-shadow: 5px 5px 0 0 rgb(0, 43, 185);
           box-shadow: 5px 5px 0 0 #2F5BE7;
 }
 
 .input-group .btn-secondary:hover {
-  -webkit-box-shadow: 5px 5px 0 0 #2FE7B1;
-          box-shadow: 5px 5px 0 0 #2FE7B1;
+  -webkit-transform: translate(1px, -1px);
+  transform: translate(1px, -1px);
+background: rgb(230, 141, 7);
+color: rgb(255, 255, 255);
+  -webkit-box-shadow: 5px 5px 0 0 rgb(255, 255, 255);
+          box-shadow: 5px 5px 0 0 rgb(255, 255, 255);
+  background-position-y: 0%;      
 }
 
 /* 
@@ -880,6 +891,15 @@ Hero
   height: 100%;
 }
 
+.play-button {
+  width: 5%;
+  height: 5%;
+  }
+
+.play-button:hover, .play-button:focus .play-button:visited {
+  -webkit-backdrop-filter: blur(80%);
+  
+}
 /*
 ============================
 SCREENS SHOTS
@@ -996,7 +1016,7 @@ FEATURES SECTIONS
 }
 
 .feature-list-image {
-  max-width: 90%;
+  max-width: 80%;
 }
 
 /*
